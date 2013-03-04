@@ -1,0 +1,8 @@
+{
+  "name": "slatebox",
+  "description": "Simple mind mapping and concept drawing",
+  "homepage": "https://github.com/TimHeckel/meteor-slatebox",
+  "author": "Tim Heckel  (http://timheckel.com)",
+  "version": "0.0.1",
+  "git": "https://github.com/TimHeckel/meteor-slatebox.git"
+}
