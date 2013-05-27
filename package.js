@@ -14,7 +14,7 @@ Package.on_use(function (api) {
         , 'lib/client/slate/Slatebox.slate.canvas.js'
         , 'lib/client/slate/Slatebox.slate.keyboard.js'
         , 'lib/client/slate/Slatebox.slate.message.js'
-        , 'lib/client/slate/Slatebox.slate.meteor.js'
+        , 'lib/client/slate/Slatebox.slate.collab.js'
         , 'lib/client/slate/Slatebox.slate.multiselection.js'
         , 'lib/client/slate/Slatebox.slate.nodes.js'
         , 'lib/client/slate/Slatebox.slate.zoomSlider.js'
@@ -43,7 +43,8 @@ Package.on_use(function (api) {
 
         , 'lib/client/notify.js'
         , 'lib/client/spinner.js'
+
+        , 'lib/client/images/2_lines.png'
        
     ], 'client');
-
 });

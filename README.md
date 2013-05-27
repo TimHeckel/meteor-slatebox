@@ -1,7 +1,7 @@
 Slatebox for Meteor
 ===============
 
-You can use the Slatebox mind mapping and concept drawing (slatebox.com) in Meteor. To install meteor-slatebox, you need to first have meteorite installed, then:
+You can use the Slatebox mind mapping and concept drawing (slatebox.com) in Meteor. To install Meteor-slatebox, you need to first have collabite installed, then:
 
 `mrt add slatebox`
 
@@ -69,7 +69,7 @@ JS:
           }
           , collaboration: {
               allow: true
-              , userIdOverride: Meteor.uuid().split('-')[0]
+              , userIdOverride: collab.uuid().split('-')[0]
               , sessionName: _sessionName
               , callbacks: {
                   onCollaboration: function (name, msg) {
