@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "slatebox": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "slatebox": {
+        "path": "."
+      }
+    }
+  }
+}

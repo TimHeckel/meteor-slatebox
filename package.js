@@ -43,6 +43,7 @@ Package.on_use(function (api) {
 
         , 'lib/client/notify.js'
         , 'lib/client/spinner.js'
+        , 'lib/client/slatebox.css'
 
         , 'lib/client/images/2_lines.png'
        

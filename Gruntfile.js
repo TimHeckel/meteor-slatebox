@@ -84,6 +84,13 @@ module.exports = function(grunt) {
             , dest: 'assets/gzipped/slatebox.min.js'
         }
     }
+    , copy: {
+        main: {
+            files: [
+              { src: 'assets/slatebox-<%= pkg.version %>.js', dest: '/home/tim/Projects/slateboxdocs/client/lib/slatebox-<%= pkg.version %>.js' }
+            ]
+        }
+    }
     , s3: {
         options: {
           key: 'KEY_HERE',
@@ -103,10 +110,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-compress');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-rename');
   grunt.loadNpmTasks('grunt-s3');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat', 'uglify', 'compress', 'rename']); //, 's3'
+  grunt.registerTask('default', ['concat', 'uglify', 'compress', 'rename', 'copy']); //, 's3'
 
 };
