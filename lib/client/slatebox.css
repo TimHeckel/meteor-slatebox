@@ -10,3 +10,23 @@
 	background: -moz-linear-gradient(top,#333,#000);
 	color: #fff;
 }
+
+.sb_cm {
+	width: 150px;
+	position: absolute;
+	background-color: #f8f8f8;
+	border: 1px solid #333;
+}
+
+.sb_contextMenuItem:hover {
+	background-color: #f1f1f1;
+	border: 1px dashed #ccc;
+}
+
+.sb_contextMenuItem {
+	padding: 2px;
+	margin: 3px;
+	cursor: pointer;
+	border: 1px dashed transparent;
+	color: #333;
+}
