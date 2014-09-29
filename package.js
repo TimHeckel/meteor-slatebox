@@ -16,6 +16,7 @@ Package.on_use(function (api) {
         , 'lib/client/slate/Slatebox.slate.message.js'
         , 'lib/client/slate/Slatebox.slate.collab.js'
         , 'lib/client/slate/Slatebox.slate.multiselection.js'
+        , 'lib/client/slate/Slatebox.slate.undoRedo.js'
         , 'lib/client/slate/Slatebox.slate.nodes.js'
         , 'lib/client/slate/Slatebox.slate.zoomSlider.js'
         , 'lib/client/node/Slatebox.node.colorpicker.js'
@@ -30,6 +31,7 @@ Package.on_use(function (api) {
         , 'lib/client/node/Slatebox.node.shapes.js'
         , 'lib/client/node/Slatebox.node.template.js'
         , 'lib/client/node/Slatebox.node.toolbar.js'
+        , 'lib/client/node/Slatebox.node.lineOptions.js'
 
         , 'lib/client/raphael/raphael.js'
         , 'lib/client/raphael/raphael.fn.objects.js'
